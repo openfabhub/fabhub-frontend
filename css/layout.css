@@ -467,10 +467,11 @@ body h1 span.amp {
 /* PAGE SPECIFIC LAYOUT */
 
 .box {
+	width: 29%;
 	border: 1px solid #434343;
 	border-radius: 8px;
 	padding: 6px;
-	margin: 0px 4px 0px 0px;
+	margin: 0px 6% 20px 0px;
 }
 
 /* Search Results */
