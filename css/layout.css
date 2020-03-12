@@ -99,7 +99,7 @@ The following fractions are supported: 1, 1/2, 1/3, 2/3, 1/4, 3/4, 1/5, 2/5, 3/5
 /* MAIN LAYOUT */
 body {
     margin: 0;
-    background: #ededed;
+    background: #FFFFFF;
     min-width: 240px;
     -webkit-text-size-adjust: none; /* The text size is not adjusted for Safari on iPhone */
 }
@@ -108,7 +108,6 @@ body {
 	    min-width: 860px; /* media queries are not supported in ie7/8 without a polyfill */
 	}
 	.main {
-	    background: #fff;
 	    padding: 40px 0 60px;
 	    min-height: 300px;
 	}
@@ -405,8 +404,8 @@ body h1 span.amp {
 
 /* FOOTER */
 .footer {
-    color: #999;
-    background: #ededed;
+    color: #000;
+    background: #919098;
     padding: 20px 0;
     font-size: 11px;
     line-height: 22px;
@@ -469,8 +468,6 @@ body h1 span.amp {
 .box {
 	position: relative;
 	width: 29%;
-	border: 1px solid #434343;
-	border-radius: 8px;
 	padding: 8px 0;
 	margin: 0px 6% 20px 0px;
 }
@@ -479,13 +476,35 @@ body h1 span.amp {
 }
 .box h3 {
 	position: absolute;
-    width: -webkit-fill-available;
-    top: 0;
-    font-size: 21px;
-    padding: 20px 12px 10px;
-    border: 1px solid #ffd400;
-    border-radius: 8px 8px 0 0;
-    background: #ffd400;
+	width: -webkit-fill-available;
+	color: black;
+	font-variant: all-small-caps;
+	user-select: none;
+	top: 0;
+	font-size: 21px;
+	text-align: center;
+	padding: 20px 12px 10px;
+	border-radius: 6px 6px 0 0;
+	background: #B1C1C0;
+}
+.box .std {
+	padding: 6px;
+}
+.button {
+	background-color: #BFACB5;
+	border: none;
+	color: white;
+	padding: 8px;
+	width: 100%;
+	text-align: center;
+	font-variant: all-small-caps;
+	display: inline-block;
+	font-size: 16px;
+	margin: 6px 0px;
+	cursor: pointer;
+}
+.button:hover {
+	color: #000;
 }
 
 

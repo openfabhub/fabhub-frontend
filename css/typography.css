@@ -51,11 +51,11 @@ body {
 .brand h1 {
 	font-family: "Leixo";
 	font-size: 48px;
-	color: whitesmoke;
+	color: #FFFFFF;
 	line-height: 1em;
 }
 .brand p {
-	color: rgb(206, 206, 206);
+	color: #FFFFFF;
 	margin-bottom: 22px;
 }
 
